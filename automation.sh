@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # I used Claude 4 to review the code, this is done only for educational purpose as a tool to simplify the CI/CD process for the Software Engineering 4 HPC DevOps Project.
+# This script handles private keys. While GitHub Repository Secrets are encrypted, always exercise extreme caution when automating the handling of sensitive credentials.
+
 
 set -e  # Exit on any error
 
